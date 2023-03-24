@@ -1,0 +1,35 @@
+1. apt list --installed git
+2. git --version
+3. git config --global user.name "nishant"
+4. git congig --global user.email "ernishant2408@gmail.com"
+5. git config --global --list
+6. mkdir nishant-project
+7. cd nishant-project
+8. ls
+9. git init
+10. ls
+11. git add -A
+12. git status
+13. git commit -m "comit the whole code to git local repo"
+14. git ls-files
+15. git branch feature
+16. git branch
+17. git checkout feature
+18. git branch
+19. git log
+20. touch file1
+21. vi file1
+22. cat file1
+23. git add file1
+24. git status
+25. git commit -m "commit file1"
+26. git status
+27. git log
+28. git checkout master
+29. git ls-files
+30. git merge feature
+31. git log
+32. git ls-files
+33. git remote add origin "https://github.com/nkshan24/Nishant-CodeBase.git"
+34. git remote
+35. git push origin --all
